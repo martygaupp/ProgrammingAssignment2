@@ -10,7 +10,7 @@
 #    BMatrix <- makeCacheMatrix(matrix(c(3,-3,3,1),nrow=2,ncol=2,byrow=TRUE))
 #    cacheSolve(BMatrix)
 #
-#  To prove that this all works, here is some R code that just loads the same function
+#  To prove that this all works, here is some R code that just loads the same matrix
 #  and uses the 'solve' function to calculate it's inverse:
 #
 #    B = matrix(c(3,-3,3,1),nrow=2,ncol=2,byrow=TRUE)
